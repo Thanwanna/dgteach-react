@@ -1,8 +1,8 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ReactUseRef from './hooks/ReactUseRef';
-// import ReactUseContext from './hooks/ReactUseContext';
+// import ReactUseRef from './hooks/ReactUseRef';
+import ReactUseContext2 from './hooks/ReactUseContext2';
 // import StyleComponent from './components/StyleComponent';
 // import ReactUseReducer from './hooks/ReactUseReducer';
 // import ReactUseEffect from './hooks/ReactUseEffect';
@@ -25,7 +25,7 @@ root.render(
     {/* <ReactUseState /> */}
     {/* <ReactUseEffect /> */}
     {/* <ReactUseReducer /> */}
-    {/* <ReactUseContext /> */}
-    <ReactUseRef />
+    <ReactUseContext2 />
+    {/* <ReactUseRef /> */}
   </React.StrictMode>
 );
